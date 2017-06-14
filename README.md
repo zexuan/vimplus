@@ -246,6 +246,7 @@ auto-pairs provides smart auto-completion for delimiters like (), {}, [], "", ''
 
 解决乱码问题
 
+~~~
 "---------------alrLine Config--------------
  if !exists('g:airline_symbols')
  let g:airline_symbols = {}
@@ -259,8 +260,11 @@ auto-pairs provides smart auto-completion for delimiters like (), {}, [], "", ''
  set laststatus=2
  set t_Co=256
  set fillchars+=stl:\ ,stlnc:\"
+ ~~~
+ 
+ 
 添加相应符号
-
+~~~
 " unicode symbols
 let g:airline_left_sep = '»'
 let g:airline_left_sep = '▶'
@@ -274,3 +278,4 @@ let g:airline_symbols.paste = 'ρ'
 let g:airline_symbols.paste = 'Þ'
 let g:airline_symbols.paste = '∥'
 let g:airline_symbols.whitespace = 'Ξ'
+~~~
