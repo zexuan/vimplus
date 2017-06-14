@@ -241,3 +241,36 @@ auto-pairs provides smart auto-completion for delimiters like (), {}, [], "", ''
   [63]: https://raw.githubusercontent.com/chxuan/vimplus/master/screenshots/change-colorscheme.gif
   [64]: https://github.com/Valloric/YouCompleteMe
   [65]: http://pan.baidu.com/s/1kVdgsRl
+
+
+
+解决乱码问题
+
+"---------------alrLine Config--------------
+ if !exists('g:airline_symbols')
+ let g:airline_symbols = {}
+ endif
+ let g:airline_symbols.space = "\ua0"
+ let g:airline_exclude_filename = []
+ let g:Powerline_symbols='fancy'
+ let g:airline_powerline_fonts=0
+ let Powerline_symbols='fancy'
+ let g:bufferline_echo=0
+ set laststatus=2
+ set t_Co=256
+ set fillchars+=stl:\ ,stlnc:\"
+添加相应符号
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
