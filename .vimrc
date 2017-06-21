@@ -120,7 +120,7 @@ Plugin 'tpope/vim-endwise'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'octol/vim-cpp-enhanced-highlight'
-Plugin 'vim-airline/vim-airline'
+" Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-scripts/a.vim'
 Plugin 'vim-scripts/DoxygenToolkit.vim'
@@ -131,6 +131,7 @@ Plugin 'gorodinskiy/vim-coloresque'
 Plugin 'will133/vim-dirdiff'
 Plugin 'haya14busa/incsearch.vim'
 Plugin 'mhinz/vim-startify'
+Plugin 'jlanzarotta/bufexplorer'
 
 call vundle#end()            
 filetype plugin indent on    
